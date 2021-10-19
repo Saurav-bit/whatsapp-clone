@@ -1,0 +1,59 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    flex: 0.35;
+     background-color:#f4e39f;
+    margin-right: 0.5rem;
+    border-radius: 15px;
+    
+    
+}
+
+.side-head{
+    background-color: #a1e3bb;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius:15px 15px 0 0;
+   
+}
+
+.RHead{
+    display: flex;
+    align-items: center;
+    min-width: 10vw;
+    justify-content: space-between;
+}
+
+.sideSearch{
+    background-color: #b7f6da ;
+    padding: 20px;
+}
+
+.search{
+    background-color: #fbf29e;
+    border-radius: 50px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.SideChat{
+    overflow-y:scroll
+
+
+}
+
+.SideChat:last-child{
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+input{
+   
+    background-color: #fbf29e;
+    width: 100%;
+    padding: 5px;
+    outline: none;
+}

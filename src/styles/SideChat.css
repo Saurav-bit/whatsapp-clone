@@ -1,0 +1,32 @@
+.chat{
+    
+    display: flex;
+    /* justify-content: space-around;
+    align-items: center; */
+    cursor: pointer;
+    padding: 20px;
+    border-bottom: 3px solid #b7f6da ;
+}
+
+.chat-color{
+    background-color:#fbf29e;
+}
+
+.info{
+    margin-left: 15px;
+    font-family: 'Lato', sans-serif;
+}
+.info >h2{
+    font-size: 16px;
+    margin-bottom: 8px;
+    margin-top: 0px;
+}
+
+.info >p{
+    margin-top: 0px;
+margin-bottom: 0px;
+font-family: 'Roboto', sans-serif;
+}
+
+
+

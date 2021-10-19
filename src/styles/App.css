@@ -1,0 +1,22 @@
+.App{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #f6cf92;
+    /* height: 100%; */
+    width: 100%;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    
+
+}
+
+
+.App-body{
+    display: flex;
+    height: 90%;
+    padding: 1.5rem;
+    border-radius: 15px;
+    
+}
